@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>console</headerType>
+  <obj>w32api/crt2.o</obj>
+  <obj>head/consolehead.o</obj>
+  <obj>head/head.o</obj>
+  <lib>w32api/libmingw32.a</lib>
+  <lib>w32api/libgcc.a</lib>
+  <lib>w32api/libmsvcrt.a</lib>
+  <lib>w32api/libkernel32.a</lib>
+  <lib>w32api/libuser32.a</lib>
+  <lib>w32api/libadvapi32.a</lib>
+  <lib>w32api/libshell32.a</lib>
+  <jar>C:\Users\perfe\Desktop\PRE-ELECT PROJECT\bin\Ordering System App.jar</jar>
+  <outfile>C:\Users\perfe\Desktop\PRE-ELECT PROJECT\Ordering System App.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\perfe\Desktop\PRE-ELECT PROJECT\image-ico\images_0Ur_2.ico</icon>
+  <jre>
+    <path>bin\jre1.8.0_111</path>
+    <bundledJre64Bit>true</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>
